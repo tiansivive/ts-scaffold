@@ -1,0 +1,31 @@
+{
+  "name": "ts-scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "serve": "webpack-dev-server",
+    "lint": "eslint --max-warnings=0 --ext=.tsx,.ts .",
+    "fmt:check": "prettier --check 'src{,/**}/*.{css,scss,ts,tsx,json}'",
+    "fmt:write": "prettier --write --loglevel warn 'src{,/**}/*.{css,scss,ts,tsx,json}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "esbuild-loader": "^2.18.0",
+    "eslint": "^8.9.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "pretier": "^0.0.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

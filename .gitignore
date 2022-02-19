@@ -1,0 +1,20 @@
+*.log
+.expo/*
+/build
+/coverage
+node_modules
+.vscode/*
+!.vscode/settings.json
+.firebase/
+.idea/
+.env
+aero-debug.log
+aero-deploy.tar.gz
+*.scss.d.ts
+
+# Eclipse
+.project
+.settings/
+
+# macOS
+.DS_Store
